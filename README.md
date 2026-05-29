@@ -36,7 +36,61 @@ Explore weather patterns across all seasons, answer 15 analytical questions, and
     - Multivariate
     - Correlation Heatmap
     - Pairplot
-11. Key Insights
+12. Key Insights
+
+---
+
+## ❓ 15 Analytical Questions
+
+### Q1 — Find all unique Wind Speed values
+Find all distinct wind speed measurements recorded in the dataset.
+
+### Q2 — How many times was weather exactly 'Clear'?
+Count the total occurrences of clear weather conditions.
+
+### Q3 — How many times was Wind Speed exactly 4 km/h?
+Count records where wind speed equals 4 km/h precisely.
+
+### Q4 — Find all missing (null) values in the data
+Identify and count all empty cells across all columns.
+
+### Q5 — Rename 'Weather' column to 'Weather_Condition'
+Clean up column naming for clarity and avoid ambiguity.
+
+### Q6 — What is the mean Visibility?
+Calculate the average visibility across all hourly readings.
+
+### Q7 — What is the standard deviation of Pressure?
+Measure how much atmospheric pressure fluctuates in this dataset.
+
+### Q8 — What is the variance of Relative Humidity?
+Quantify the spread of humidity values throughout the year.
+
+### Q9 — Find all instances where Snow was recorded
+Filter and display all records with snow conditions.
+
+### Q10 — Wind Speed > 24 AND Visibility = 25
+Find records meeting BOTH conditions simultaneously.
+
+### Q11 — Mean value of each column per Weather Condition
+Group data by weather condition and calculate averages for all metrics.
+
+### Q12 — Min and Max values per Weather Condition
+Find extreme values (lowest and highest) for each weather type.
+
+### Q13 — All records where Weather Condition is 'Fog'
+Display all foggy weather observations in the dataset.
+
+### Q14 — Weather is 'Clear' OR Visibility > 40
+Find records satisfying either condition (using OR operator).
+
+### Q15 — Complex filtering: (Clear AND Humidity > 50) OR Visibility > 40
+⚠️ **Operator Precedence:** Demonstrates the importance of parentheses in conditional logic.  
+Find records that are either:
+- Clear weather AND relative humidity exceeds 50%, OR
+- Visibility is above 40 km
+
+---
 
 ## 💡 Key Insights
 - Temperature and Dew Point are strongly correlated — near-linear relationship
